@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de la Derivada - Nivel <span id="level-header"></span></title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>Nivel <span id="level-header"></span></h1>
+    <div id="main-question">
+        <!-- La pregunta principal se mostrará aquí -->
+    </div>
+    <div id="question-container">
+        <!-- Las preguntas se generarán dinámicamente aquí -->
+    </div>
+    <div id="tips-container">
+        <!-- Los consejos aparecerán aquí cuando se elija una respuesta incorrecta -->
+    </div>
+    <div id="procedure-container">
+        <h2>Procedimiento Acumulado</h2>
+        <div id="procedure-steps">
+            <!-- El procedimiento acumulado se mostrará aquí -->
+        </div>
+    </div>
+    <div id="reference-formula">
+        <h2>Formulario de Referencia</h2>
+        <p>Regla de la Cadena: \[\frac{d}{dx} f(g(x)) = f'(g(x)) * g'(x) \]</p>
+        <a href="Formulario general.pdf" target="_blank">Enlace al Formulario de Referencia (PDF)</a>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', loadGame);
+    </script>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Santiago Alexander Pocón Buch - Cálculo 1 - <a href="mailto:spoconb@miumg.edu.gt">spoconb@miumg.edu.gt</a></p>
+            <p class="university">Universidad Mariano Gálvez de Guatemala, sede San Juan Sacatepéquez</p>
+        </div>
+    </footer>
+</body>
+</html>
