@@ -51,7 +51,7 @@ const questions = {
                 {
                     question: "Paso 3: ¿Cuál es el resultado final?",
                     options: ["\\(3(2x-3) * 2\\)", "\\(6x\\)", "\\((2x-3)^3\\)"],
-                    correct: "\\(3(2x-3) * 2\\)",
+                    correct: "\(3(2x-3) * 2\)",
                     tips: ["Combina la derivada externa e interna.", "Revisa tus respuestas anteriores.", "Aplica la regla de la cadena."]
                 }
             ]
